@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Happy Birthday 🎂</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>🎉 Happy Birthday Nisha 🎂</h1>
+  <p>Wishing you lots of joy, love & success 💖</p>
+  <h2>Cherished Memories</h2>
+  <div class="memories">
+    <img src="image/20221115_145519(0).jpg",alt="Memory 1">>
+    <img src="image/20221117_145311.jpg",alt="Memory 2">
+    <img src="image/20221121_110837.jpg",alt="Memory 3">
+  </div>
+
+  <!-- Surprise Button -->
+  <!-- Use a class instead of id for multiple buttons -->
+<button class="surpriseBtn">🎁 Click for Surprise!</button>
+<div class="surpriseContent hidden">
+ <img src="image/20221115_145519(0).jpg" alt="Memory 1"> 
+
+<p>✨ Surprise! May all your dreams come true! ✨</p>
+</div>
+<button class="surpriseBtn">🎁 Click for Surprise!</button>
+<div class="surpriseContent hidden">
+  <img src="image/20221117_145311.jpg" alt="Memory 2">
+<p>✨ Surprise! May all your dreams come true! ✨</p>
+</div>
+<button class="surpriseBtn">🎁 Click for Surprise!</button>
+<div class="surpriseContent hidden">
+  <img src="image/20221121_110837.jpg" alt="Memory 3">
+<p>✨ Surprise! May all your dreams come true! ✨</p>
+</div>
+  <!-- Balloons -->
+  <div class="balloon" style="left:10%; background:#ff6b6b; animation-duration:7s;"></div>
+  <div class="balloon" style="left:30%; background:#6bcB77; animation-duration:9s;"></div>
+  <div class="balloon" style="left:50%; background:#4d96ff; animation-duration:6s;"></div>
+  <div class="balloon" style="left:70%; background:#f7b801; animation-duration:8s;"></div>
+  <div class="balloon" style="left:90%; background:#9d4edd; animation-duration:10s;"></div>
+
+  <!-- Confetti Canvas -->
+  <canvas id="confetti"></canvas>
+
+  <!-- Background Music -->
+  <audio id="birthdaySong" src="audio/happy-birthday-258264.mp3"></audio>
+
+
+  <script src="script.js"></script>
+</body>
+</html>
